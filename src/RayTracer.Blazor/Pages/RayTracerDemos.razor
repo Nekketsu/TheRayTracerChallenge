@@ -1,0 +1,32 @@
+﻿@page "/"
+<h3>RayTracerDemos</h3>
+
+<div>
+    <select @bind="SelectedDemo">
+        @foreach (var demo in Demos)
+        {
+            <option>@demo</option>
+        }
+    </select>
+
+    <label for="width">Width</label>
+    <input type="number" min="10" @bind="Width" />
+
+    <label for="heigth">Height</label>
+    <input type="number" min="10" @bind="Height" />
+
+    <button class="btn btn-primary" @onclick="RenderDemo" disabled="@IsLoading">Demo</button>
+
+    @if (IsLoading)
+    {
+        <div class="spinner-border text-secondary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    }
+</div>
+
+@if (Canvas != null)
+{
+    <CanvasScene Canvas="@Canvas" />
+    @*<ImgScene Canvas="Canvas" />*@
+}
