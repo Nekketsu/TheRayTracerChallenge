@@ -24,7 +24,7 @@ namespace RayTracer.Blazor.Pages
             demoService = new DemoService();
 
             Demos = demoService.GetDemos();
-            SelectedDemo = Demos.FirstOrDefault();
+            SelectedDemo = Demos.FirstOrDefault(d => d == RayTracer.Demos.Shadows.Demo.Name);
 
             Width = 100;
             Height = 50;
