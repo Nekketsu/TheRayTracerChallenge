@@ -29,3 +29,37 @@ The solution, as described above, is in the `src` folder, and it contains the fo
 It has been an awesome experience to share code between the C# the console applications and the [Blazor WebAssembly](https://blazor.net) application, making it very straightforward to convert to a web application the implementation of the book with very little effort.
 
 Please, feel free to send issues or pull requests. Any feedback is always welcome!
+
+## Examples
+<table>
+  <tr>
+    <td><img src="images/01-Projectile.png" alt="01-Projectile"></td>
+    <td><img src="images/02-Clock.png" alt="02-Clock"></td>
+    <td><img src="images/03-Spheres.png" alt="03-Spheres"></td>
+    <td><img src="images/04-Spheres3D.png" alt="04-Spheres3D"></td>
+  </tr>
+  <tr>
+    <td><img src="images/05-Scenes.png" alt="05-Scenes"></td>
+    <td><img src="images/06-Shadows.png" alt="06-Shadows"></td>
+    <td><img src="images/07-Planes.png" alt="07-Planes"></td>
+    <td><img src="images/08-Patterns.png" alt="08-Patterns"></td>
+  </tr>
+  <tr>
+    <td><img src="images/09-Reflections.png" alt="09-Reflections"></td>
+    <td><img src="images/10-Refractions.png" alt="10-Refractions"></td>
+    <td><img src="images/11-Fresnel.png" alt="11-Fresnel"></td>
+    <td><img src="images/12-Cubes.png" alt="12-Cubes"></td>
+  </tr>
+  <tr>
+    <td><img src="images/13-Cylinders.png" alt="13-Cylinders"></td>
+    <td><img src="images/14-Cones.png" alt="14-Cones"></td>
+    <td><img src="images/15-Groups.png" alt="15-Groups"></td>
+    <td><img src="images/16-Triangles.png" alt="16-Triangles"></td>
+  </tr>
+  <tr>
+    <td><img src="images/17-CSG.png" alt="17-CSG"></td>
+    <td><img src="images/18-Cover.png" alt="18-Cover"></td>
+    <td><img src="images/TestResults.png" alt="TestResults"></td>
+    <td><img src="images/Web.png" alt="Web"></td>
+  </tr>
+</table>
